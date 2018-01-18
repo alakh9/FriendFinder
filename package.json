@@ -1,0 +1,25 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "app which will ask questions and find a compatible match to the friends within the database",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alakh9/FriendFinder.git"
+  },
+  "author": "Alakh Sheth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alakh9/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/alakh9/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  }
+}
