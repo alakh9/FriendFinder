@@ -1,23 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<title>Travel Buddy</title>
+ 
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery.js"></script>
+	
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
 
-        If you were stuck in another planet you would be able to make it back to earth?
-        Superman can travel between parallel universes?
-        There are more then 1 billion galaxies in the world?
-        Black holes would not be able to suck you in?
-        Meteor shower is something you would like to see in your lifetime?
-        Moon Landing never happened?
-        The Universe is awesome?
-        Astronauts fav place on the computer is a space bar?
-        Boiling conditions are ideal to me?
-        Moon walking on the moon is illegal?
-        
+<body>
+<section id="main">
+	<div class="container">
+		<div>
+			<h2><strong>Survey Questions</strong></h2>
+			<h3><strong>Name</strong></h3><h4>(Required)</h4>
+		    <input type="text" name="" id="name" class="mainQuestion" required >
+
+      <h3><strong>Photo Image</strong></h3><h4>(Required)</h4>
+		    <input type="text" name="" id="photo" class="mainQuestion" required >
+
+		<hr>
+
+		<h3><strong>Question 1</strong></h3>
+		<h4>If you were stuck in another planet you would be able to make it back to earth?</h4>
+	 	<select data-placeholder="" class="options" id="q1">
+	 		<option value="">Cl!ck</option>
+            <option value="1">1 (Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Agree)</option>
+    </select>
+
+		<h3><strong>Question 2</strong></h3>
+		<h4>Superman can travel between parallel universes?</h4>
+	 	<select data-placeholder="" class="options" id="q2">
+	 		<option value="">Cl!ck</option>
+            <option value="1">1 (Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Agree)</option>
+    </select>
+         
+
+		<h3><strong>Question 3</strong></h3>
+		<h4>There are more then a thousand galaxies in the world?</h4>
+	 	<select data-placeholder="" class="options" id="q3">
+	 		<option value="">Cl!ck</option>
+            <option value="1">1 (Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Agree)</option>
+    </select>
+
+
+		<h3><strong>Question 4</strong></h3>
+		<h4>Black holes would not be able to suck you in?</h4>
+	 	<select data-placeholder="" class="options" id="q4">
+	 		<option value="">Cl!ck</option>
+            <option value="1">1 (Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Agree)</option>
+    </select>
+
+
+		<h3><strong>Question 5</strong></h3>
+		<h4>Meteor shower is something you would like to see in your lifetime?</h4>
+	 	<select data-placeholder="" class="options" id="q5">
+	 		<option value="">Cl!ck</option>
+            <option value="1">1 (Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Agree)</option>
+    </select>
+
+
+		<h3><strong>Question 6</strong></h3>
+		<h4>The Universe is awesome?</h4>
+	 	<select data-placeholder="" class="options" id="q6">
+	 		<option value="">Cl!ck</option>
+            <option value="1">1 (Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Agree)</option>
+    </select>
+
+
+		<h3><strong>Question 7</strong></h3>
+		<h4>Moon Landing never happened?</h4>
+	 	<select data-placeholder="" class="options" id="q7">
+	 		<option value="">Cl!ck</option>
+            <option value="1">1 (Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Agree)</option>
+    </select>
+
+		<h3><strong>Question 8</strong></h3>
+		<h4>Astronauts fav place on the computer is a space bar?</h4>
+	 	<select data-placeholder="" class="options" id="q8">
+	 		<option value="">Cl!ck</option>
+            <option value="1">1 (Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Agree)</option>
+    </select>
+
+		<h3><strong>Question 9</strong></h3>
+		<h4>Boiling conditions are ideal to me?</h4>
+	 	<select data-placeholder="" class="options" id="q9">
+	 		<option value="">Cl!ck</option>
+            <option value="1">1 (Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Agree)</option>
+    </select>
+
+		<h3><strong>Question 10</strong></h3>
+		<h4>Moon walking on the moon is illegal?</h4>
+	 	<select data-placeholder="" class="options" id="q10">
+	 		<option value="">Cl!ck</option>
+            <option value="1">1 (Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Agree)</option>
+    </select>
+
+
+		<br>
+		<br>
+
+	
+		<button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="check" aria-hidden="true"></i>
+ 		Get Buddy</button>
+
+		<hr>
+	    <footer class="footer">
+	      <div class="container">
+		  <p><a href="/api/friends">API Friends List</a> </p>
+	      </div>
+	    </footer>
+
+	</div>
+</section>
+
+	<div id="resultsModal" class="modal fade" role="dialog">
+	  <div class="modal-dialog">
+
+	    <!-- Modal content-->
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal">&times;</button>
+	        <h2 class="modal-title"><strong>Friend</strong></h2>
+	      </div>
+	      <div class="modal-body">
+	        <h2 id="matchName"></h2>
+	        </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+
+	  </div>
+	</div>
+
+    <script type="text/javascript">
+      
+      for (var selector in config) {
+        $(selector).chosen(config[selector]);
+      }
     
-</body>
-</html>
+      $("#submit").on("click", function(){
+         
+          function validateForm() {
+            var isValid = true;
+            $('.mainQuestion').each(function() {
+              if ( $(this).val() === '' )
+                  isValid = false;
+            });
+            $('.options').each(function() {
+                if( $(this).val() === "")
+                    isValid = false
+            })
+            return isValid;
+          }
+          
+          if (validateForm() == true)
+          {
+          
+              var userData = {
+                  name: $("#name").val(),
+                  photo: $("#photo").val(),
+                  scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val(), ]
+              }
+              
+              var currentURL = window.location.origin;
+             
+              $.post(currentURL + "/api/friends", userData, function(data){
+                  
+                  $("#matchName").text(data.name);
+                  $('#matchImg').attr("src", data.photo);
+     
+                  $("#resultsModal").modal('toggle');
+              });
+          }
+          else
+          {
+              alert("Fill out everything to submit!");
+          }
+          
+          return false;
+      });
+    </script>
+  
+  
+  </body>
+  </html>

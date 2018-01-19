@@ -1,0 +1,15 @@
+body{
+    background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/N13e7awhgiljgescq/rocket-flying-in-space-retro-cartoon-style-with-flat-design_hnn9t47we_thumbnail-full15.png");
+}
+h2{
+    font-family: 'Orbitron', sans-serif;
+}
+#main {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 100%;
+    background: white;
+    opacity: 0.7;
+    filter: alpha(opacity=50);   
+}

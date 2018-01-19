@@ -22,7 +22,7 @@ var friends = [
        2,
        3,
        5,
-       6,
+       5,
        2,
        1,
        4,
@@ -34,7 +34,7 @@ var friends = [
     "name":"Space Ghost",
     "photo":"https://cdn-images-1.medium.com/max/2000/1*ucBEkKve1kHXYRF8axmfSw.jpeg",
     "scores":[
-       9,
+       5,
        1,
        4,
        4,
@@ -51,47 +51,47 @@ var friends = [
     "photo":"http://www.gamezebo.com/wp-content/uploads/2015/10/flashgordon01.jpg",
     "scores":[
        5,
-       6,
        4,
+       4,
+       5,
+       5,
        5,
        3,
-       5,
-       6,
        4,
        5,
-       6
+       4
         ]
   },
   {
     "name":"Silver Surfer",
     "photo":"https://i.pinimg.com/736x/5c/f9/60/5cf960f71166bd6aefe4ebaebb1e914c--marvel-dc-marvel-comics.jpg",
     "scores":[
-       7,
-       8,
-       9,
-       8,
-       7,
-       9,
-       7,
-       6,
-       9,
-       7
+       5,
+       5,
+       5,
+       5,
+       5,
+       5,
+       5,
+       5,
+       5,
+       5
         ]
   },
   {
     "name":"Thanos",
     "photo":"https://vignette.wikia.nocookie.net/mutantsgeneticgladiators/images/c/c2/Thanos.jpg/revision/latest?cb=20140928151221",
     "scores":[
-       9,
-       8,
-       7,
-       9,
-       8,
-       7,
-       9,
-       8,
-       9,
-       9
+       5,
+       4,
+       4,
+       4,
+       4,
+       4,
+       5,
+       5,
+       5,
+       4
         ]
   },
   {
@@ -103,7 +103,7 @@ var friends = [
        4,
        3,
        2,
-       6,
+       5,
        4,
        5,
        3,
@@ -114,16 +114,16 @@ var friends = [
     "name":"Nova",
     "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
     "scores":[
-       9,
+       5,
        1,
        4,
        3,
        2,
-       6,
-       9,
-       8,
-       9,
-       9
+       5,
+       5,
+       4,
+       3,
+       2
         ]
   },
   {
@@ -135,11 +135,11 @@ var friends = [
        4,
        3,
        2,
-       6,
-       9,
-       8,
-       9,
-       9
+       4,
+       2,
+       1,
+       3,
+       1
         ]
   },
   {
@@ -151,11 +151,11 @@ var friends = [
        4,
        3,
        2,
-       6,
-       9,
-       8,
-       9,
-       9
+       5,
+       4,
+       4,
+       5,
+       4
         ]
   }
   ]
